@@ -92,20 +92,20 @@
                 <div class="panel-body maxHeight">
                     <div class="center">
                         <img data-bind="attr: { src: Poster}" class="img" alt="Movie Poster image">
-
                         <ul class="list-group">
                             <li class="list-group-item">Type: <span data-bind="text: Type"></span></li>
                             <li class="list-group-item">Year: <span data-bind="text: Year"></span></li>
                             <li class="list-group-item"><a
                                     data-bind="attr: { href: 'http://www.imdb.com/title/' + imdbID() }">Click here to
                                 view IMDB</a></li>
-                        </ul>
+                            <div class="panel-heading">Rental: $3.99</div>
+                            <div class="panel-heading">Purchase: $14.99</div>
                         <button type="button" class="btn btn-primary btn-lg" data-toggle="modal"
                                 data-bind="click: $root.viewMoreInfo" data-target="#myModal">View more Info
                         </button>
-
+                            <li><button type="button" button style="float:right" class="btn btn-danger">AddToCart</button></li>
+                        </ul>
                     </div>
-
                 </div>
             </div>
 
