@@ -1,3 +1,12 @@
 $(document).ready(function () {
-    alert("It works.")
+    function movie(){
+        $.ajax({
+            url: "action.php",
+            method: "POST",
+            data : {category_ID: 1},
+            success: function(data){
+
+            }
+        })
+    }
 })

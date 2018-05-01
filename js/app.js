@@ -14,6 +14,7 @@ function MyViewModel() {
         Runtime: ko.observable(),
         Poster: ko.observable(),
         Rated: ko.observable(),
+        imdbID: ko.observable(),
         imdbRating: ko.observable(),
         imdbVotes: ko.observable(),
         Metascore:ko.observable(),
@@ -25,6 +26,8 @@ function MyViewModel() {
         Language: ko.observable(),
         Title: ko.observable()
     };
+
+
 
     self.error = ko.observable(false);
     self.errorMessage = ko.observable();
@@ -68,6 +71,7 @@ function MyViewModel() {
         $(".searchForm").val("");
         $(".results").fadeOut("fast");
     };
+
 };
 
 

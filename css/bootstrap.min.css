@@ -1366,7 +1366,7 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
-    background-color: rgba(243, 219, 92,1.5);
+    background-color: rgba(243, 219, 92,0.8);
 }
 _::-webkit-full-page-media, _:future, :root .panel {
     background-color:#f3db5c
@@ -4615,7 +4615,7 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 }
 
 .navbar-fixed-top {
-    z-index: 0;
+    z-index: 1;
     top: 0;
     border-width: 0 0 1px
 }
